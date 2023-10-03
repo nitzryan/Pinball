@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="glad">
+      <UniqueIdentifier>{d7518c84-4146-43f1-9cc4-86aa953fae81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdl">
+      <UniqueIdentifier>{df53c1a1-ae5e-484a-a248-7686042b0e48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameObjects">
+      <UniqueIdentifier>{8dc6cea2-917b-4c31-81c5-f5df4e9e4758}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="geometry">
+      <UniqueIdentifier>{0da3c144-c1c6-41b8-8449-d41ff75ba2c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rendering">
+      <UniqueIdentifier>{b1afaa36-0b04-45de-8170-3e34fa6245f2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="glad\glad.c">
+      <Filter>glad</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\Renderer.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="gameObjects\CircleObj.cpp">
+      <Filter>gameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\Camera.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="gameObjects\GameScene.cpp">
+      <Filter>gameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="gameObjects\BallObj.cpp">
+      <Filter>gameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="gameObjects\Material.cpp">
+      <Filter>gameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="gameObjects\PolygonObj.cpp">
+      <Filter>gameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="geometry\CollisionDetection2D.cpp">
+      <Filter>geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="gameObjects\Flipper.cpp">
+      <Filter>gameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="gameObjects\Launcher.cpp">
+      <Filter>gameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="gameObjects\Teleport.cpp">
+      <Filter>gameObjects</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="glad\glad.h">
+      <Filter>glad</Filter>
+    </ClInclude>
+    <ClInclude Include="glad\khrplatform.h">
+      <Filter>glad</Filter>
+    </ClInclude>
+    <ClInclude Include="sdl\SDL.h">
+      <Filter>sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="geometry\AxisBox2F.h">
+      <Filter>geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="geometry\Circle.h">
+      <Filter>geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="geometry\CollisonDetection2D.h">
+      <Filter>geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="geometry\Line2F.h">
+      <Filter>geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="geometry\Pos2F.h">
+      <Filter>geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="geometry\Vec2F.h">
+      <Filter>geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="gameObjects\CircleObj.h">
+      <Filter>gameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="rendering\Renderer.h">
+      <Filter>rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="gameObjects\ColorRGBA.h">
+      <Filter>gameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="rendering\Camera.h">
+      <Filter>rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="gameObjects\GameScene.h">
+      <Filter>gameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="gameObjects\BallObj.h">
+      <Filter>gameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="gameObjects\Material.h">
+      <Filter>gameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="gameObjects\PolygonObj.h">
+      <Filter>gameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="rendering\VBO_Writer.h">
+      <Filter>rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="gameObjects\Flipper.h">
+      <Filter>gameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="gameObjects\Launcher.h">
+      <Filter>gameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="gameObjects\Teleport.h">
+      <Filter>gameObjects</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
